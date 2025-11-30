@@ -24,8 +24,8 @@ Reverse engineered ASMboy's "segfault" validation algorithm through static analy
 
 Defeated authentication controls through SQL comment injection, then bypassed XML parsing filters using entity encoding to circumvent WAF protections. Analyzed filter processing order to identify logic gaps exploitable through encoding variations.
 
-**Impact**: Shows capability to identify and exploit defense-in-depth failures
-**Skills**: SQL injection, XML encoding, filter bypass analysis, CyberChef
+**Impact**: Shows capability to identify and exploit defense-in-depth failures  
+**Skills**: SQL injection, XML encoding, filter bypass analysis, CyberChef  
 **[View Writeup →](web-security/sql-injection-fundamentals/)**
 
 ---
