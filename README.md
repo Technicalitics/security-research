@@ -2,7 +2,7 @@
 
 **One security domain per week.** A systematic approach to building practical cybersecurity skills through hands-on challenges across reverse engineering, web application security, cryptography, network analysis, and binary exploitation.
 
-**Portfolio Metrics:** 2/6 domains | 10+ techniques | Updated weekly through Spring 2026
+**Portfolio Metrics:** 3/6 domains | 10+ techniques | Updated weekly through Spring 2026
 
 ---
 
@@ -31,8 +31,12 @@ Defeated authentication controls through SQL comment injection, then bypassed XM
 ---
 
 ### Cryptography
-*Coming December 2025*
+*December 2025 | CryptoHack*
+Successfully decrypted a ciphertext encrypted with a modular exponentiation-based scheme. Identified quadratic residuosity leakage in the ciphertext, allowing recovery of each plaintext bit using Euler's Criterion. Deployed Python to automate the decryption process and extract the flag.
 
+**Impact:** Demonstrates how modular arithmetic vulnerabilities can leak structural information, enabling decryption without a secret key.   
+**Skills:** Python, modular arithmetic, Euler's Criterion, cryptanalysis  
+**[View Writeup →](cryptography/adriens-signs/)**
 ---
 
 ### Network Security
@@ -65,9 +69,9 @@ Projects balance breadth across security domains with progressive depth within e
 
 ## Tools & Technologies
 
-**Analysis**: Ghidra, GDB, Burp Suite, Wireshark, CyberChef  
+**Analysis**: Ghidra, GDB, Burp Suite, Wireshark, CyberChef, PyCryptodome
 **Languages**: Python, SQL, x86-64 assembly, Bash  
-**Platforms**: PortSwigger Academy, crackmes.one, HackTheBox, CTFtime  
+**Platforms**: PortSwigger Academy, crackmes.one, HackTheBox, CTFtime, CryptoHack
 
 ---
 
