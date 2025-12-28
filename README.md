@@ -13,8 +13,8 @@
 
 Reverse engineered ASMboy's "segfault" validation algorithm through static analysis. Reconstructed serial generation logic by analyzing username transformation and integer conversion operations, identifying input validation weaknesses.
 
-**Impact**: Demonstrates binary analysis for vulnerability discovery
-**Skills**: Ghidra, x86-64 assembly, algorithm reconstruction
+**Impact**: Demonstrates binary analysis for vulnerability discovery  
+**Skills**: Ghidra, x86-64 assembly, algorithm reconstruction  
 **[View Writeup →](reverse-engineering/crackme-segfault/)**
 
 ---
@@ -24,8 +24,8 @@ Reverse engineered ASMboy's "segfault" validation algorithm through static analy
 
 Defeated authentication controls through SQL comment injection, then bypassed XML parsing filters using entity encoding to circumvent WAF protections. Analyzed filter processing order to identify logic gaps exploitable through encoding variations.
 
-**Impact**: Shows capability to identify and exploit defense-in-depth failures
-**Skills**: SQL injection, XML encoding, filter bypass analysis, CyberChef
+**Impact**: Shows capability to identify and exploit defense-in-depth failures  
+**Skills**: SQL injection, XML encoding, filter bypass analysis, CyberChef  
 **[View Writeup →](web-security/sql-injection-fundamentals/)**
 
 ---
@@ -65,9 +65,9 @@ Projects balance breadth across security domains with progressive depth within e
 
 ## Tools & Technologies
 
-**Analysis**: Ghidra, GDB, Burp Suite, Wireshark, CyberChef
-**Languages**: Python, SQL, x86-64 assembly, Bash
-**Platforms**: PortSwigger Academy, crackmes.one, HackTheBox, CTFtime
+**Analysis**: Ghidra, GDB, Burp Suite, Wireshark, CyberChef  
+**Languages**: Python, SQL, x86-64 assembly, Bash  
+**Platforms**: PortSwigger Academy, crackmes.one, HackTheBox, CTFtime  
 
 ---
 
