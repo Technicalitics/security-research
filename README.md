@@ -32,11 +32,13 @@ Defeated authentication controls through SQL comment injection, then bypassed XM
 
 ### Cryptography
 *December 2025 | CryptoHack*
+
 Successfully decrypted a ciphertext encrypted with a modular exponentiation-based scheme. Identified quadratic residuosity leakage in the ciphertext, allowing recovery of each plaintext bit using Euler's Criterion. Deployed Python to automate the decryption process and extract the flag.
 
-**Impact:** Demonstrates how modular arithmetic vulnerabilities can leak structural information, enabling decryption without a secret key.   
-**Skills:** Python, modular arithmetic, Euler's Criterion, cryptanalysis  
+**Impact**: Demonstrates how modular arithmetic vulnerabilities can leak structural information, enabling decryption without a secret key.  
+**Skills**: Python, modular arithmetic, Euler's Criterion, cryptanalysis  
 **[View Writeup →](cryptography/adriens-signs/)**
+
 ---
 
 ### Network Security
