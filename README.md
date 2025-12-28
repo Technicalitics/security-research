@@ -30,7 +30,7 @@ Defeated authentication controls through SQL comment injection, then bypassed XM
 
 ---
 
-### Cryptography
+### Cryptography: Breaking the 'Adrien's Signs' Modular Encryption Scheme
 *December 2025 | CryptoHack*
 
 Successfully decrypted a ciphertext encrypted with a modular exponentiation-based scheme. Identified quadratic residuosity leakage in the ciphertext, allowing recovery of each plaintext bit using Euler's Criterion. Deployed Python to automate the decryption process and extract the flag.
