@@ -27,7 +27,8 @@ After converting the characters to bits, the algorithm then performs the followi
 
 The last two steps of this algorithm means that each element of the ciphertext is either:
 1. A value of the form `a^e mod p`, or
-2. its modular negation  
+2. its modular negation
+
 This observation is key to cracking this lab.
 
 ## Key Mathematical Observation
