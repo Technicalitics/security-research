@@ -14,7 +14,7 @@ This lab provides an encryption algorithm in python, and an `output.txt` file th
 In the python file, I discovered that many of the inputs are public, including `a` and `p`. The `output.txt` file provided the result from this encryption scheme, which I named the `encrypted_flag`. The goal of this lab is to recover the string that was encrypted with the provided algorithm, and produced the result in `output.txt`
 
 ## Understanding The Encryption Scheme
-1. Bit-level Encoding
+### Bit-level Encoding
 Each character of the flag is converted to its 8-bit ASCII representation. For example: 
    - `'A'` is represented as `65` in decimal, which converts to `01000001` in binary.
 
