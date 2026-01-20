@@ -71,7 +71,7 @@ Projects balance breadth across security domains with progressive depth within e
 
 ## Tools & Technologies
 
-**Analysis**: Ghidra, GDB, Burp Suite, Wireshark, CyberChef, PyCryptodome
+**Analysis**: Ghidra, GDB, Burp Suite, Wireshark, CyberChef, PyCryptodome  
 **Languages**: Python, SQL, x86-64 assembly, Bash  
 **Platforms**: PortSwigger Academy, crackmes.one, HackTheBox, CTFtime, CryptoHack
 
